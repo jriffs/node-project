@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background: #fff000;
+}
+.container ul{
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+}
+.container ul span{
+    display: flex;
+    margin: 10px;
+}
+.container ul span .tabs{
+    background: #00eeff;
+    min-height: 30px;
+    min-width: 80px;
+    list-style: none;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 3px;
+}
