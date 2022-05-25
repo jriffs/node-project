@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-header">Express App (javascript) </div>
+        <div class="nav-links">
+            <a href="index.html">Regular</a>
+            <a href="javascript.html">Javascript</a>
+        </div>
+    </nav>
+    <main>
+        <form>
+            <h3>Javascript form</h3>
+            <div class="form-row">
+                <label for="name">Enter Name</label>
+                <input type="text" name="name" id="name" autocomplete="false">
+                <small class="form-alert"></small>
+            </div>
+            <button type="submit" id="btn-submit">submit</button>
+        </form>
+        <div class="result"></div>
+    </main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="express-app.js"></script>
+</body>
+</html>
